@@ -1,0 +1,24 @@
+{
+  "name": "dropbox-api-v2",
+  "version": "0.0.1",
+  "description": "simples wraper to v2 dropbox api",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pompeu/dropbox-api-v2.git"
+  },
+  "keywords": [
+    "dropbox",
+    "api-v2",
+    "rest"
+  ],
+  "author": "Itacir Ferreira Pompeu",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/itacir_pompeu/api-v2-dropbox#readme"
+}
