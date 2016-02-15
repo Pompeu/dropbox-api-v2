@@ -7,7 +7,7 @@ dropbox-api-v2 wraper
 you can check testes for more exemples
 
 ```js
-
+const Dropbox = require("dropbox-api-v2");
 const dropbox = new Dropbox();
 const options = {
   folder : 'add/your/folder',
