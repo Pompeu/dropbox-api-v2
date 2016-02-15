@@ -33,5 +33,13 @@ dropbox.createFolder(options)
 
 ## Must See
 
-check tests for see all options
-you can se another options for use outers endpoints of api.
+Check tests for see all options.
+
+You can se another options for use outhers endpoints of api.
+
+
+## Testing
+
+for run teste you will need create acount in dropbox,
+and add your bearen key in tests/token.json
+
