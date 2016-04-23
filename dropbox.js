@@ -27,11 +27,10 @@ const Request = (options,data,callback) => {
 
     res.on('end',() => { 
       if (res.statusCode >= 300) {
-        callback(body);
-        return;
+        return callback(body);
+        
       } else {
-        callback(null, body);
-        return;
+        return callback(null, body);
       }
     });
     
