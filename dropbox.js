@@ -25,7 +25,15 @@ const Request = (options,data,callback) => {
       body = name;
     }
 
-    res.on('end',() => callback(null,body));
+    res.on('end',() => { 
+      if (res.statusCode >= 300) {
+        return callback(body);
+        
+      } else {
+        return callback(null, body);
+      }
+    });
+    
     res.on('error', err => callback(err));
   }
 
